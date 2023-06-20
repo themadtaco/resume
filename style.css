@@ -8,6 +8,8 @@
 
 ul, p {
     color: white;
+    margin-top: 1px;
+
 }
 
 #header {
@@ -17,18 +19,19 @@ ul, p {
 
 .work{
     display: flex;
-    padding: 50px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .wrapper{
     display: flex;
-    flex-flow: row wrap;
     text-align: center;
-    box-shadow: 0 8px 16px 0 rgb(102, 235, 120);
+    flex-flow: row wrap;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 0 8px 16px 0 #ECA72C;
     border-radius: 5px;
 }
 
-.wrapper > * {
-    flex: 1 100%;
+.content {
+    margin: 2;
 }
