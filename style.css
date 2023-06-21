@@ -8,7 +8,6 @@
 
 ul, p {
     color: white;
-    margin-top: 1px;
 
 }
 
@@ -19,19 +18,15 @@ ul, p {
 
 .work{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .wrapper{
     display: flex;
-    text-align: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     padding: 10px;
     width: 30%;
-    box-shadow: 0 8px 16px 0 #ECA72C;
+    box-shadow: 0 4px 8px 0 #E5E7E6;
     border-radius: 5px;
-}
-
-.content {
-    margin: 2;
+    line-height: 150%;
 }
